@@ -316,4 +316,74 @@ body {
   color: #333b42;
   margin-bottom: 97px;
 }
+.commercial {
+  max-height: 890px;
+  background: url(../upload/girl.jpg) no-repeat;
+  background-size: cover;
+}
+
+.commercial_logo img {
+  width: 177px;
+  height: 177px;
+}
+
+.commercial_container {
+  display: flex;
+  align-items: center;
+}
+
+.commercial_wrapper {
+  max-width: 506px;
+  color: #fff;
+  margin: 300px 0 0 90px;
+}
+
+.commercial_wrapper_title {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 55px;
+  text-transform: uppercase;
+}
+
+.commercial_wrapper_text {
+  font-size: 18px;
+  line-height: 24px;
+  padding: 75px 0 320px;
+}
+
+footer {
+  font-size: 12px;
+  color: #8297a7;
+}
+
+.footer_wrappers:nth-child(1) {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_wrappers:nth-child(2) {
+  margin-top: 25px;
+  padding-bottom: 73px;
+}
+
+.footer_wrappers_wrapper {
+  display: flex;
+}
+
+.footer_wrappers_wrapper:nth-child(2) {
+  line-height: 22px;
+}
+
+.footer_wrappers_wrapper_block {
+  display: flex;
+  flex-direction: column;
+  margin-right: 95px;
+}
+
+.footer_wrappers_wrapper_block_text {
+  font-size: 12px;
+  color: #8297a7;
+  margin-bottom: 25px;
+}
 
