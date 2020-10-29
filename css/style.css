@@ -1,0 +1,161 @@
+body {
+  font-family: arial, sans-serif;
+  background: #fff;
+  color: #333b42;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1180px;
+  margin: 0 auto;
+}
+
+.header {
+  width: 100%;
+  background: url(../upload/sport.jpg) no-repeat;
+  background-size: cover;
+  color: #fff;
+  overflow: hidden;
+}
+
+.header_container_logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 74px;
+}
+
+.burger {
+  width: 50px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px;
+  margin-top: 15px;
+}
+
+.burger_icon {
+  width: 35px;
+  height: 5px;
+  border-radius: 3px;
+  background: #ccc;
+}
+
+.header_container_menu.active {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header_container_menu_link {
+  margin-right: 36px;
+}
+
+.header_container_menu_link:last-child {
+  margin-right: 27px;
+}
+
+.header_container_menu_link {
+  font-size: 14px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 19px;
+  border-bottom: 3px solid transparent;
+  cursor: pointer;
+}
+
+.header_container_menu_link:hover {
+  border-bottom: 3px solid #28c8c6;
+  text-decoration: none;
+  color: #fff;
+}
+
+.header_container_menu_link:last-child {
+  padding: 13px 48px;
+  background: #a100ff;
+  border-radius: 3px;
+  border-bottom: none;
+  color: #fff;
+}
+
+.header_container_menu_link:last-child:active {
+  opacity: 0.8;
+  background: #a100ff;
+}
+
+.header_container_wrapper {
+  width: 650px;
+  padding: 100px 0 239px;
+}
+
+.header_container_wrapper_title {
+  font-size: 60px;
+  line-height: 55px;
+  text-transform: uppercase;
+}
+
+.header_container_wrapper_text {
+  font-size: 16px;
+  line-height: 24px;
+  margin: 42px 0 26px;
+}
+
+.header_container_wrapper input {
+  width: 280px;
+  height: 60px;
+  background: #fff;
+  border-radius: 2px;
+  border: none;
+  padding-left: 25px;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+.header_container_wrapper input:focus {
+  outline: none;
+}
+
+.send_info {
+  display: flex;
+}
+
+.send_name {
+  margin-right: 20px;
+}
+
+.send_email {
+  margin-right: 16px;
+}
+
+.send_btn {
+  width: 64px;
+  height: 60px;
+  display: block;
+  background: #28c8c6 url(../img/ic-go.png) 50% 50% no-repeat;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.send_btn:hover {
+  opacity: 0.8;
+}
+
+.content {
+  background: url(../upload/phone.jpg) 50% no-repeat;
+  background-size: cover;
+}
+
+.content_title {
+  padding: 123px 0 43px;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
