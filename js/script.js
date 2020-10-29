@@ -1,4 +1,10 @@
 $(() => {
+  $('.burger').on('click', () => {
+    let menu = $('.header_container_menu');
+    menu.addClass('active');
+    menu.toggle();
+  });
+
   $('.design_wrappers_wrapper').not(':first').hide();
   $('.design_links_link').click(function () {
     $('.design_links_link').removeClass('design_active').eq($(this).index()).addClass('design_active');
